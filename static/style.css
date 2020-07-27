@@ -93,7 +93,7 @@ p.message {
 }
 
 .btn {
-    display: block;
+display: block;
     width: 100%;
     background: #333;
     color: #fff;
@@ -102,4 +102,15 @@ p.message {
     cursor: pointer;
     outline: none;
     margin-top: 1rem;
+    border-radius: 20px;
+    max-width: 203px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 2px solid #333;
+}
+.btn:hover {
+    background: white;
+    color: #333;
 }
